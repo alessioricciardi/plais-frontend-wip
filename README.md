@@ -1,3 +1,10 @@
+# Project Description
+This is the frontend for the website of PLAIS – the Polish Association of Information Systems.
+The frontend is built using Vue.js, Nuxt.js, TypeScript, and JavaScript.
+The backend is developed with C# and .NET Core 8.
+
+Authentication is handled via HTTP-only cookies for enhanced security.
+The site also features a dynamic CMS for editing content and managing data seamlessly.
 
 # Project Startup Instructions
 
@@ -12,6 +19,7 @@ pnpm install
 ---
 
 ## 2. Installing SSL certificates for the Nuxt Dev Server
+Authentication uses HTTP-only cookies, an SSL certificate is required for secure cookie transmission and proper functionality.
 
 To enable the Nuxt development server to run on HTTPS, follow these steps:
 
